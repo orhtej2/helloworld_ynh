@@ -1,0 +1,15 @@
+version = "1.0"
+
+[main]
+name = "Dummy configuration"
+
+    [main.dummy]
+    name = "Dummy"
+
+        [main.dummy.dummy_choice]
+        type = "select"
+        choices.a = "Option A"
+        choices.b = "Option B"
+        choices.c = "Option C"
+        choices.d = "Option D"
+        default = "a"

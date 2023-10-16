@@ -36,6 +36,14 @@ ram.runtime = "1M"
     type = "group"
     default = "visitors"
 
+    [install.dummy_choice]
+    type = "select"
+    choices.a = "Option A"
+    choices.b = "Option B"
+    choices.c = "Option C"
+    choices.d = "Option D"
+    default = "a"
+
 [resources]
     [resources.system_user]
 
